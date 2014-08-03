@@ -1,0 +1,9 @@
+.carouselBox {
+	background-color: blue;
+	border: 10px solid black;
+}
+.carouselImage {
+	width: 400px;
+	height: 200px;
+
+}
