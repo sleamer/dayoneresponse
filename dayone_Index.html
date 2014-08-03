@@ -2,24 +2,55 @@
 <html>
 <head>
 	<title>DayOne Response Home Page</title>
+	<!-- 	Slick Carousel-->
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+
 	<link rel="stylesheet" type="text/css" href="css/dayonestyle.css"/>
+<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
 </head>
 <body>
+<!-- container for all content for grid system -->
+<div class="container-fluid">
+<!-- logo section -->
+	<div class="row">
+		<div class="col-md-8"><img src="images/dayone_pg_logo.png"></div>
+		<div class="col-md-4">FACEBOOK</div>
+	</div>
+<!-- /logo section -->
 
-	<div id="dayoneCarousel">
-	  <div><img src="images/slider1.jpg" class="carouselImage"></div>
-	  <div><img src="images/slider2.jpg" class="carouselImage"></div>
-	  <div><img src="images/slider3.jpg" class="carouselImage"></div>
+	<div class="row">
+			<!-- the Carousel -->
+			<div id="dayoneCarousel">
+			  <div><img src="carousel-images/slider1.jpg" class="carouselImage"></div>
+			  <div><img src="carousel-images/slider2.jpg" class="carouselImage"></div>
+			  <div><img src="carousel-images/slider3.jpg" class="carouselImage"></div>
+			</div>
+			<!-- /the Carousel -->
+			<!-- Carousel Buttons -->
+			<div class="btn-group">
+			  <button type="button" class="btn btn-default">About us</button>
+			  <button type="button" class="btn btn-default">Waterbag</button>
+			  <button type="button" class="btn btn-default">Community</button>
+			</div>
+			<!-- /Carousel Buttons -->
 	</div>
 
 
+		<div>
+			<ul>
+			<li class="homeSection">Press</li>
+			<li class="homeSection">Waterbag</li>
+			<li class="homeSection">Partners</li>
+			</ul>	
+		</div>
+</div>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- 	Slick Carousel-->
 <script type="text/javascript" src="slick/slick.min.js"></script>
-<script type="text/javascript">
-	$(document).ready(function(){
-			$('#dayoneCarousel').slick();
-	});
-</script>
+<script type="text/javascript" src="js/dayone.js"></script>
 </body>
 </html>

@@ -1,15 +1,34 @@
 #dayoneCarousel {
-	width: 500px;
-	height: 200px;
+	width: 400px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
 
 }
+html, body {
+	height: 100%;
+}
+body {
+	background-image:
+    linear-gradient(
+    	white,
+		#3d64e1, 
+		white, 
+		#3d64e1
+    );
+}
 
-.carouselBox {
-	background-color: blue;
-	border: 10px solid black;
+.homeNav {
+	color: gray;
 }
 .carouselImage {
 	width: 400px;
-	height: 200px;
+	height: 300px;
+	border: 1px solid black;
 
 }
+
+.homeSection {
+	background-color: gray;
+}
+
