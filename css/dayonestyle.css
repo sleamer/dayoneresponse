@@ -1,34 +1,40 @@
-#dayoneCarousel {
-	width: 400px;
-	height: 300px;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-html, body {
-	height: 100%;
-}
+/* line 3, ../assets/sass/dayonestyle.scss */
 body {
-	background-image:
-    linear-gradient(
-    	white,
-		#3d64e1, 
-		white, 
-		#3d64e1
-    );
+  background: blue;
 }
 
-.homeNav {
-	color: gray;
+/* line 7, ../assets/sass/dayonestyle.scss */
+#dayoneCarouselContainer {
+  background: rgba(58, 59, 120, 0.5);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/* line 13, ../assets/sass/dayonestyle.scss */
 .carouselImage {
-	width: 400px;
-	height: 300px;
-	border: 1px solid black;
-
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3%;
 }
 
-.homeSection {
-	background-color: gray;
+/* line 22, ../assets/sass/dayonestyle.scss */
+.homeSectionBox {
+  height: 400px;
+  padding: 2%;
+  border-radius: 10px;
+  background: #cfcece;
 }
 
+/* line 29, ../assets/sass/dayonestyle.scss */
+.homeSectionTitle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 34, ../assets/sass/dayonestyle.scss */
+[class*="col"] {
+  border: 1px solid black;
+}

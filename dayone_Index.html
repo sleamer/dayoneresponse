@@ -6,9 +6,10 @@
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 
 
-	<link rel="stylesheet" type="text/css" href="css/dayonestyle.css"/>
+
 <!-- Bootstrap -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap_dayone.css" rel="stylesheet" type="text/css">	
+	<link rel="stylesheet" type="text/css" href="css/dayonestyle.css"/>
 	<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
 </head>
 <body>
@@ -16,37 +17,60 @@
 <div class="container-fluid">
 <!-- logo section -->
 	<div class="row">
-		<div class="col-md-8"><img src="images/dayone_pg_logo.png"></div>
+		<div class="col-md-8"><img src="images/dayone_pg_logo.png" class="img-responsive"></div>
 		<div class="col-md-4">FACEBOOK</div>
 	</div>
 <!-- /logo section -->
-
+<!-- the Carousel Section-->
 	<div class="row">
-			<!-- the Carousel -->
+		<div class="col-md-3"></div>
+		<div id="dayoneCarouselContainer" class="col-md-6" >
 			<div id="dayoneCarousel">
 			  <div><img src="carousel-images/slider1.jpg" class="carouselImage"></div>
 			  <div><img src="carousel-images/slider2.jpg" class="carouselImage"></div>
 			  <div><img src="carousel-images/slider3.jpg" class="carouselImage"></div>
 			</div>
-			<!-- /the Carousel -->
-			<!-- Carousel Buttons -->
-			<div class="btn-group">
-			  <button type="button" class="btn btn-default">About us</button>
-			  <button type="button" class="btn btn-default">Waterbag</button>
-			  <button type="button" class="btn btn-default">Community</button>
-			</div>
-			<!-- /Carousel Buttons -->
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+<!--   -->
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+			<ul class="nav nav-pills nav-justified">
+			  <li class="active"><a href="#">Home</a></li>
+			  <li><a href="#">Profile</a></li>
+			  <li><a href="#">Messages</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+<!-- /the Carousel Section-->
+<!-- worldmap section -->
+	<div class="row">
+		<div class="col-md-12 text-center">I AM THE WORLD MAP</div>
+	</div>
+<!-- /worldmap section -->
+	<div class="row">
+		<div class="col-md-4"><h2>Press</h2>
+			<div class="homeSectionBox"></div>
+		</div>
+		<div class="col-md-4"><h2>Waterbag</h2>
+			<div class="homeSectionBox"></div>
+		</div>
+		<div class="col-md-4"><h2>Partners</h2>
+			<div class="homeSectionBox"></div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="row">
+		<div class="col-md-6">&copy; DayOneResponse</div>
+		<div class="col-md-6">Home | About | Terms&amp;Conditions | Privacy Policy | Contact Us</div>
 	</div>
 
+</footer>
 
-		<div>
-			<ul>
-			<li class="homeSection">Press</li>
-			<li class="homeSection">Waterbag</li>
-			<li class="homeSection">Partners</li>
-			</ul>	
-		</div>
-</div>
 <!-- Bootstrap -->
 <script src="js/bootstrap.min.js"></script>
 <!-- 	Slick Carousel-->
