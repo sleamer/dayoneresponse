@@ -1,29 +1,41 @@
 @mixin imageBox{
 }
+$gradient-blue: #4066e1;
+$gradient-ltblue: #d0d8f3;
+
 body {
- background: blue;
-}
+/*  background-image: url("../images/homepage_background.png"); */
+background: rgba(255,255,255,1);/* Old Browsers */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(64,102,225,1) 17%, rgba(208,216,243,1) 57%, rgba(83,118,228,1) 85%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(7%, rgba(255,255,255,1)), color-stop(17%, rgba(64,102,225,1)), color-stop(57%, rgba(208,216,243,1)), color-stop(85%, rgba(83,118,228,1)), color-stop(100%, rgba(255,255,255,1)));/* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(64,102,225,1) 17%, rgba(208,216,243,1) 57%, rgba(83,118,228,1) 85%, rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(64,102,225,1) 17%, rgba(208,216,243,1) 57%, rgba(83,118,228,1) 85%, rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(64,102,225,1) 17%, rgba(208,216,243,1) 57%, rgba(83,118,228,1) 85%, rgba(255,255,255,1) 100%); /* IE 10+ */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(64,102,225,1) 17%, rgba(208,216,243,1) 57%, rgba(83,118,228,1) 85%, rgba(255,255,255,1) 100%);/* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );/* IE6-9 */}
 
 #dayoneCarouselContainer {
-	background: rgba(58, 59, 120, .5);
+	background: rgba(58, 59, 120, .25);
 	border-radius: 10px;
 	margin-left: auto;
 	margin-right: auto;
 }
 .carouselImage {
 	width: 400px;
-	height: 300px;
+	height: 320px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 3%;
+	padding-top: 5%;
 
 }
 
 .homeSectionBox {
 	height: 400px;
-	padding: 2%;
+	padding: 5%;
 	border-radius: 10px;
 	background: #cfcece;
+	overflow: hidden;
+
 }
 
 .homeSectionTitle {
@@ -31,7 +43,7 @@ body {
 	margin-right: auto;
 }
 
-[class*="col"] {
+/* [class*="col"] {
 
 	border: 1px solid black;
-}
+} */

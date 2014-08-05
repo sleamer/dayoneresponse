@@ -2,6 +2,6 @@
 			$('#dayoneCarousel').slick({
 			  fade: true,
 			  speed: 500,
-			  autoplay: true
+			  autoplay: true,
 			});	
 	});

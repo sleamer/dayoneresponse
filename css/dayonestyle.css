@@ -1,40 +1,57 @@
-/* line 3, ../assets/sass/dayonestyle.scss */
+/* line 6, ../assets/sass/dayonestyle.scss */
 body {
-  background: blue;
+  /*  background-image: url("../images/homepage_background.png"); */
+  background: white;
+  /* Old Browsers */
+  background: -moz-linear-gradient(top, white 0%, white 7%, #4066e1 17%, #d0d8f3 57%, #5376e4 85%, white 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, white), color-stop(7%, white), color-stop(17%, #4066e1), color-stop(57%, #d0d8f3), color-stop(85%, #5376e4), color-stop(100%, white));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, white 0%, white 7%, #4066e1 17%, #d0d8f3 57%, #5376e4 85%, white 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, white 0%, white 7%, #4066e1 17%, #d0d8f3 57%, #5376e4 85%, white 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, white 0%, white 7%, #4066e1 17%, #d0d8f3 57%, #5376e4 85%, white 100%);
+  /* IE 10+ */
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 7%, #4066e1 17%, #d0d8f3 57%, #5376e4 85%, #ffffff 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+  /* IE6-9 */
 }
 
-/* line 7, ../assets/sass/dayonestyle.scss */
+/* line 17, ../assets/sass/dayonestyle.scss */
 #dayoneCarouselContainer {
-  background: rgba(58, 59, 120, 0.5);
+  background: rgba(58, 59, 120, 0.25);
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 13, ../assets/sass/dayonestyle.scss */
+/* line 23, ../assets/sass/dayonestyle.scss */
 .carouselImage {
   width: 400px;
-  height: 300px;
+  height: 320px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 3%;
+  padding-top: 5%;
 }
 
-/* line 22, ../assets/sass/dayonestyle.scss */
+/* line 32, ../assets/sass/dayonestyle.scss */
 .homeSectionBox {
   height: 400px;
-  padding: 2%;
+  padding: 5%;
   border-radius: 10px;
   background: #cfcece;
+  overflow: hidden;
 }
 
-/* line 29, ../assets/sass/dayonestyle.scss */
+/* line 41, ../assets/sass/dayonestyle.scss */
 .homeSectionTitle {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 34, ../assets/sass/dayonestyle.scss */
-[class*="col"] {
-  border: 1px solid black;
-}
+/* [class*="col"] {
+
+	border: 1px solid black;
+} */
