@@ -106,11 +106,21 @@ body {
 }
 
 /* line 90, ../assets/sass/dayonestyle.scss */
+#waterbag {
+  margin-top: 5%;
+}
+
+/* line 94, ../assets/sass/dayonestyle.scss */
 .aboutBio {
   font-size: .8em;
 }
 
-/* line 93, ../assets/sass/dayonestyle.scss */
+/* line 97, ../assets/sass/dayonestyle.scss */
 .bioRowFiller {
   height: 20px;
+}
+
+/* line 101, ../assets/sass/dayonestyle.scss */
+#prodDescript ul li {
+  font-size: .8em;
 }
