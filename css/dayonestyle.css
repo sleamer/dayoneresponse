@@ -53,74 +53,79 @@ body {
 }
 
 /* line 48, ../assets/sass/dayonestyle.scss */
-[class*="col"] {
-  border: 1px solid black;
-}
-
-/* line 53, ../assets/sass/dayonestyle.scss */
 .partnerLogo {
   /* margin-top: 5%; */
   margin-bottom: 10%;
 }
 
-/* line 58, ../assets/sass/dayonestyle.scss */
+/* line 53, ../assets/sass/dayonestyle.scss */
 #dayOneFooterNav {
   padding-top: 5%;
 }
 
-/* line 63, ../assets/sass/dayonestyle.scss */
+/* line 58, ../assets/sass/dayonestyle.scss */
 .nav > li {
   /* There is no Bootstrap variable in variable.scss that controls this. Overriding it here. */
   background-color: #4e4b4b;
   border-radius: 4px;
 }
-/* line 66, ../assets/sass/dayonestyle.scss */
+/* line 61, ../assets/sass/dayonestyle.scss */
 .nav > li a {
   color: white;
 }
+/* line 64, ../assets/sass/dayonestyle.scss */
+.nav > li a:hover {
+  background-color: yellow;
+  color: black;
+}
 
-/* line 71, ../assets/sass/dayonestyle.scss */
+/* line 70, ../assets/sass/dayonestyle.scss */
 #socialMediablock {
   padding-top: 5%;
 }
 
-/* line 75, ../assets/sass/dayonestyle.scss */
+/* line 74, ../assets/sass/dayonestyle.scss */
 #dayOneNav {
   margin-top: 5%;
 }
 
-/* line 79, ../assets/sass/dayonestyle.scss */
+/* line 78, ../assets/sass/dayonestyle.scss */
 .center {
   text-align: center;
 }
 
-/* line 82, ../assets/sass/dayonestyle.scss */
+/* line 81, ../assets/sass/dayonestyle.scss */
 .infoSection {
   color: white;
   font-size: 1.5em;
 }
 
-/* line 87, ../assets/sass/dayonestyle.scss */
+/* line 86, ../assets/sass/dayonestyle.scss */
 #about {
   margin-top: 5%;
 }
 
-/* line 90, ../assets/sass/dayonestyle.scss */
+/* line 89, ../assets/sass/dayonestyle.scss */
 #waterbag {
   margin-top: 5%;
 }
 
-/* line 94, ../assets/sass/dayonestyle.scss */
+/* line 93, ../assets/sass/dayonestyle.scss */
 .aboutBio {
   font-size: .8em;
 }
 
-/* line 97, ../assets/sass/dayonestyle.scss */
+/* line 96, ../assets/sass/dayonestyle.scss */
 .bioRowFiller {
   height: 20px;
 }
 
-/* line 101, ../assets/sass/dayonestyle.scss */
+/* line 100, ../assets/sass/dayonestyle.scss */
 #prodDescript ul li {
   font-size: .8em;
 }
+
+/* SAL: this is only to show how the DIVs break down */
+/* [class*="col"] {
+	border: 1px solid black;
+} */
