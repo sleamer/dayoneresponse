@@ -3,5 +3,6 @@
 			  fade: true,
 			  speed: 500,
 			  autoplay: true,
+			  arrows: true,
 			});	
 	});

@@ -13,21 +13,28 @@
 	<!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap_dayone.css">	
 	<link rel="stylesheet" type="text/css" href="css/dayonestyle.css"/>
-	
+
 </head>
-<body>
+<body class="gradient">
 <!-- container for all content for grid system -->
 <div class="container-fluid">
 <!-- logo section -->
 	<div class="row">
-		<div class="col-md-8"><img src="images/dayone_pg_logo.png" class="img-responsive"></div>
+		<div class="col-md-8"><a href="index.html"><img src="images/dayone_pg_logo.png" class="img-responsive"></a></div>
 		<div class="col-md-4">
-			<div id="socialMediablock">
-				<a href="http://www.twitter.com/dayoneresponse"><img src="images/grey-twitter-logo.png"></a>
-				<a href="http://www.facebook.com/dayoneresponse"><img src="images/grey-facebook-logo.png"></a>
-				<a href="http://www.pinterest.com/dayoneresponse"><img src="images/grey-pintrest-logo.png"></a>
-				<a href="https://www.youtube.com/user/DayOneResponse"><img src="images/grey-youtube-logo.png"></a>
-			</div>
+			<div class="row center">
+				<div class="col-md-12">
+					<a href="contact.html"><button type="button" class="btn btn-lg" id="contactUsBtn">CONTACT US</button></a>
+				</div>
+				<div class="col-md-12">
+					<div id="socialMediablock">
+						<a href="http://www.twitter.com/dayoneresponse"><img src="images/grey-twitter-logo.png"></a>
+						<a href="http://www.facebook.com/dayoneresponse"><img src="images/grey-facebook-logo.png"></a>
+						<a href="http://www.pinterest.com/dayoneresponse"><img src="images/grey-pintrest-logo.png"></a>
+						<a href="https://www.youtube.com/user/DayOneResponse"><img src="images/grey-youtube-logo.png"></a>
+					</div><!-- /socialMediablock -->
+				</div><!-- class="col-md-12" -->
+			</div><!-- class="row center" -->
 		</div><!-- class="col-md-4" -->
 	</div><!-- /class="row" -->
 <!-- /logo section -->
@@ -48,7 +55,7 @@
 <!-- /Site NAV   -->
 
 	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
+		<div class="col-md-10 col-md-offset-1 contentBackground">
 			<!-- ABOUT -->
 			<section id="about" class="infoSection">
 			<!-- MISSION -->
@@ -224,7 +231,5 @@
 
 	<!-- Bootstrap -->
 	<script src="js/bootstrap.min.js"></script>
-	<!-- 	Slick Carousel-->
-	<script type="text/javascript" src="js/dayone.js"></script>
 </body>
 </html>

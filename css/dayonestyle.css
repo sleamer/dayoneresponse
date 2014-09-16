@@ -1,5 +1,5 @@
 /* line 6, ../assets/sass/dayonestyle.scss */
-body {
+.gradientHome {
   /*  background-image: url("../images/homepage_background.png"); */
   background: #ffffff;
   /* Old browsers */
@@ -21,7 +21,13 @@ body {
   /* IE6-8 */
 }
 
-/* line 19, ../assets/sass/dayonestyle.scss */
+/* line 20, ../assets/sass/dayonestyle.scss */
+.gradient {
+  height: 100%;
+  background: -webkit-linear-gradient(white 180px, #4066e1 300px, #cfd8f3 100%);
+}
+
+/* line 25, ../assets/sass/dayonestyle.scss */
 #dayoneCarouselContainer {
   background: rgba(58, 59, 120, 0.25);
   border-radius: 10px;
@@ -29,7 +35,7 @@ body {
   margin-right: auto;
 }
 
-/* line 25, ../assets/sass/dayonestyle.scss */
+/* line 31, ../assets/sass/dayonestyle.scss */
 .carouselImage {
   width: 400px;
   height: 320px;
@@ -38,89 +44,97 @@ body {
   padding-top: 5%;
 }
 
-/* line 34, ../assets/sass/dayonestyle.scss */
+/* This controls the grey boxes in the bottom of the home page */
+/* line 40, ../assets/sass/dayonestyle.scss */
+.homeSectionHeader {
+  font-weight: bold;
+}
+
+/* line 43, ../assets/sass/dayonestyle.scss */
 .homeSectionBox {
   padding: 5%;
   border-radius: 10px;
   background: #cfcece;
   overflow: hidden;
+  text-align: left;
 }
 
-/* line 43, ../assets/sass/dayonestyle.scss */
+/* line 50, ../assets/sass/dayonestyle.scss */
 .homeSectionTitle {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 48, ../assets/sass/dayonestyle.scss */
+/* line 54, ../assets/sass/dayonestyle.scss */
 .partnerLogo {
-  /* margin-top: 5%; */
   margin-bottom: 10%;
 }
 
-/* line 53, ../assets/sass/dayonestyle.scss */
+/* This controls the grey boxes in the bottom of the home page */
+/* line 58, ../assets/sass/dayonestyle.scss */
 #dayOneFooterNav {
   padding-top: 5%;
 }
 
-/* line 58, ../assets/sass/dayonestyle.scss */
+/* line 62, ../assets/sass/dayonestyle.scss */
 .nav > li {
   /* There is no Bootstrap variable in variable.scss that controls this. Overriding it here. */
   background-color: #4e4b4b;
   border-radius: 4px;
+  font-size: 1.5em;
 }
-/* line 61, ../assets/sass/dayonestyle.scss */
+/* line 66, ../assets/sass/dayonestyle.scss */
 .nav > li a {
   color: white;
 }
-/* line 64, ../assets/sass/dayonestyle.scss */
+/* line 69, ../assets/sass/dayonestyle.scss */
 .nav > li a:hover {
-  background-color: yellow;
+  background-color: #5ac2ff;
   color: black;
 }
 
-/* line 70, ../assets/sass/dayonestyle.scss */
+/* line 75, ../assets/sass/dayonestyle.scss */
 #socialMediablock {
   padding-top: 5%;
 }
 
-/* line 74, ../assets/sass/dayonestyle.scss */
-#dayOneNav {
-  margin-top: 5%;
-}
-
-/* line 78, ../assets/sass/dayonestyle.scss */
+/* line 79, ../assets/sass/dayonestyle.scss */
 .center {
   text-align: center;
 }
 
-/* line 81, ../assets/sass/dayonestyle.scss */
+/* This changes the color of all the body section text in the site */
+/* line 84, ../assets/sass/dayonestyle.scss */
 .infoSection {
-  color: white;
+  color: #4e4b4b;
   font-size: 1.5em;
 }
 
-/* line 86, ../assets/sass/dayonestyle.scss */
-#about {
-  margin-top: 5%;
-}
-
+/* The semi-transparent background behind text */
 /* line 89, ../assets/sass/dayonestyle.scss */
-#waterbag {
+.contentBackground {
+  background: rgba(255, 255, 255, 0.5);
   margin-top: 5%;
+  border-radius: 4px;
+  padding-bottom: 10px;
+  padding: 5%;
 }
 
-/* line 93, ../assets/sass/dayonestyle.scss */
+/* .contentPadding {
+	padding:5%;
+} */
+/* ABOUT page specifics */
+/* line 101, ../assets/sass/dayonestyle.scss */
 .aboutBio {
   font-size: .8em;
 }
 
-/* line 96, ../assets/sass/dayonestyle.scss */
+/* line 104, ../assets/sass/dayonestyle.scss */
 .bioRowFiller {
   height: 20px;
 }
 
-/* line 100, ../assets/sass/dayonestyle.scss */
+/* line 108, ../assets/sass/dayonestyle.scss */
 #prodDescript ul li {
   font-size: .8em;
 }
@@ -129,3 +143,52 @@ body {
 /* [class*="col"] {
 	border: 1px solid black;
 } */
+/* line 116, ../assets/sass/dayonestyle.scss */
+#contactUsBtn {
+  margin-top: 5%;
+  background: #a7a9ac;
+  font-size: 1.5em;
+  padding-right: 12%;
+  padding-left: 12%;
+  color: white;
+}
+/* line 123, ../assets/sass/dayonestyle.scss */
+#contactUsBtn:hover {
+  background: #5ac2ff;
+  color: black;
+}
+
+/* SAL: This needs to disappear or change when the screen is smaller */
+/* line 129, ../assets/sass/dayonestyle.scss */
+#contactImg {
+  margin-top: 25%;
+}
+
+/* overwritting Arrows for slick on the Homepage Carousel*/
+/* line 133, ../assets/sass/dayonestyle.scss */
+.slick-prev, .slick-next {
+  height: 40px;
+  width: 40px;
+}
+
+/* line 138, ../assets/sass/dayonestyle.scss */
+.slick-prev:before, .slick-next:before {
+  font-size: 40px;
+  color: #3a3b96;
+}
+
+/* Legaleese formatting */
+/* line 145, ../assets/sass/dayonestyle.scss */
+#terms ul li {
+  font-size: .8em;
+  list-style-type: none;
+  padding-bottom: 8px;
+}
+/* line 150, ../assets/sass/dayonestyle.scss */
+#terms .boldedText {
+  font-weight: bold;
+}
+/* line 153, ../assets/sass/dayonestyle.scss */
+#terms h2, #terms h3 {
+  font-weight: bold;
+}
