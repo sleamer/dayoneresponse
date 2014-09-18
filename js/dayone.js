@@ -10,7 +10,7 @@ $(document).ready(function(){
 		$(link).qtip({
 			content: link.attr("title"),
 			style: {
-             	width: 100,
+             	width: 160,
              	classes: 'qtip-dayone qtip-rounded'
            },
 		});
