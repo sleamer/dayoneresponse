@@ -179,22 +179,28 @@
 
 /* Legaleese formatting */
 /* line 145, ../assets/sass/dayonestyle.scss */
-#terms ul li {
+#terms ul li, #privacy ul li {
   font-size: .8em;
   list-style-type: none;
   padding-bottom: 8px;
 }
 /* line 150, ../assets/sass/dayonestyle.scss */
-#terms .boldedText {
+#terms .boldedText, #privacy .boldedText {
   font-weight: bold;
 }
 /* line 153, ../assets/sass/dayonestyle.scss */
-#terms h2, #terms h3 {
+#terms h2, #privacy h2, #terms h3, #privacy h3 {
   font-weight: bold;
 }
 
+/* Privacy formatting */
+/* line 161, ../assets/sass/dayonestyle.scss */
+#privacy .sharingPersonalInfo li {
+  list-style-type: initial;
+}
+
 /* Qtip2 formatting  */
-/* line 159, ../assets/sass/dayonestyle.scss */
+/* line 167, ../assets/sass/dayonestyle.scss */
 .qtip-dayone {
   border: solid 5px #b7b7b7;
   background: #e1e1e1;
