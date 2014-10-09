@@ -205,3 +205,9 @@
   border: solid 5px #b7b7b7;
   background: #e1e1e1;
 }
+
+/* This turns off the sign in link on purchase.html */
+/* line 173, ../assets/sass/dayonestyle.scss */
+div.ecwid-productBrowser-auth {
+  display: none;
+}
