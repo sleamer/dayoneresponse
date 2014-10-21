@@ -332,3 +332,47 @@ ul {
   -moz-columns: 2;
   list-style-position: inside;
 }
+
+/* SAL need to make background disappear when smaller @media */
+/* line 290, ../assets/sass/dayonestyle.scss */
+#communityBackground {
+  background-image: url("../images/community_background.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 511px;
+}
+
+/* line 297, ../assets/sass/dayonestyle.scss */
+.comVideo {
+  background: #becaf2;
+  padding: 50px;
+  margin-top: 50px;
+  border-radius: 4px;
+}
+
+/* line 305, ../assets/sass/dayonestyle.scss */
+.videoBox {
+  /* 	background-color: blue; */
+  width: 500px;
+  height: 320px;
+}
+
+/* line 311, ../assets/sass/dayonestyle.scss */
+.video-nav {
+  height: 150px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+
+/* line 318, ../assets/sass/dayonestyle.scss */
+.centerVideo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 324, ../assets/sass/dayonestyle.scss */
+.videoCaption {
+  text-align: center;
+}
