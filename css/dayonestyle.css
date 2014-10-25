@@ -212,14 +212,27 @@
   padding: 1%;
   border-radius: 4px;
 }
+/* line 181, ../assets/sass/dayonestyle.scss */
+.button-order a, .button-orderSmall a {
+  color: white;
+}
+/* line 184, ../assets/sass/dayonestyle.scss */
+.button-order a:hover, .button-orderSmall a:hover {
+  text-decoration: none;
+}
+/* line 187, ../assets/sass/dayonestyle.scss */
+.button-order:hover, .button-orderSmall:hover {
+  background-color: #5ac2ff;
+  color: black;
+}
 
-/* line 183, ../assets/sass/dayonestyle.scss */
+/* line 193, ../assets/sass/dayonestyle.scss */
 .ordertextLarge {
   font-size: 2em;
   padding: 10px;
 }
 
-/* line 188, ../assets/sass/dayonestyle.scss */
+/* line 198, ../assets/sass/dayonestyle.scss */
 .button-orderSmall {
   margin: 5px;
 }
@@ -228,17 +241,17 @@
 	padding:5%;
 } */
 /* ABOUT page specifics */
-/* line 198, ../assets/sass/dayonestyle.scss */
+/* line 208, ../assets/sass/dayonestyle.scss */
 .aboutBio {
   font-size: .8em;
 }
 
-/* line 201, ../assets/sass/dayonestyle.scss */
+/* line 211, ../assets/sass/dayonestyle.scss */
 .bioRowFiller {
   height: 20px;
 }
 
-/* line 205, ../assets/sass/dayonestyle.scss */
+/* line 215, ../assets/sass/dayonestyle.scss */
 #prodDescript ul li {
   font-size: .8em;
 }
@@ -247,7 +260,7 @@
 /* [class*="col"] {
 	border: 1px solid black;
 } */
-/* line 213, ../assets/sass/dayonestyle.scss */
+/* line 223, ../assets/sass/dayonestyle.scss */
 #contactUsBtn {
   margin-top: 5%;
   background: #a7a9ac;
@@ -256,74 +269,74 @@
   padding-left: 12%;
   color: white;
 }
-/* line 220, ../assets/sass/dayonestyle.scss */
+/* line 230, ../assets/sass/dayonestyle.scss */
 #contactUsBtn:hover {
   background: #5ac2ff;
   color: black;
 }
 
 /* SAL: This needs to disappear or change when the screen is smaller */
-/* line 226, ../assets/sass/dayonestyle.scss */
+/* line 236, ../assets/sass/dayonestyle.scss */
 #contactImg {
   margin-top: 25%;
 }
 
 /* overwritting Arrows for slick on the Homepage Carousel*/
-/* line 230, ../assets/sass/dayonestyle.scss */
+/* line 240, ../assets/sass/dayonestyle.scss */
 .slick-prev, .slick-next {
   height: 40px;
   width: 40px;
 }
 
-/* line 235, ../assets/sass/dayonestyle.scss */
+/* line 245, ../assets/sass/dayonestyle.scss */
 .slick-prev:before, .slick-next:before {
   font-size: 40px;
   color: #3a3b96;
 }
 
 /* Legaleese formatting */
-/* line 242, ../assets/sass/dayonestyle.scss */
+/* line 252, ../assets/sass/dayonestyle.scss */
 #terms ul li, #privacy ul li {
   font-size: .8em;
   list-style-type: none;
   padding-bottom: 8px;
 }
-/* line 247, ../assets/sass/dayonestyle.scss */
+/* line 257, ../assets/sass/dayonestyle.scss */
 #terms .boldedText, #privacy .boldedText {
   font-weight: bold;
 }
-/* line 250, ../assets/sass/dayonestyle.scss */
+/* line 260, ../assets/sass/dayonestyle.scss */
 #terms h2, #privacy h2, #terms h3, #privacy h3 {
   font-weight: bold;
 }
 
 /* Privacy formatting */
-/* line 258, ../assets/sass/dayonestyle.scss */
+/* line 268, ../assets/sass/dayonestyle.scss */
 #privacy .sharingPersonalInfo li {
   list-style-type: initial;
 }
 
 /* Qtip2 formatting  */
-/* line 264, ../assets/sass/dayonestyle.scss */
+/* line 274, ../assets/sass/dayonestyle.scss */
 .qtip-dayone {
   border: solid 5px #b7b7b7;
   background: #e1e1e1;
 }
 
 /* This turns off the sign in link on purchase.html */
-/* line 270, ../assets/sass/dayonestyle.scss */
+/* line 280, ../assets/sass/dayonestyle.scss */
 div.ecwid-productBrowser-auth {
   display: none;
 }
 
 /* To cover different formatting of product page */
-/* line 275, ../assets/sass/dayonestyle.scss */
+/* line 285, ../assets/sass/dayonestyle.scss */
 .waterbagTagline {
   font-style: italic;
   font-size: .8em;
 }
 
-/* line 282, ../assets/sass/dayonestyle.scss */
+/* line 292, ../assets/sass/dayonestyle.scss */
 .waterbagTreatList
 ul {
   list-style-type: disc;
@@ -334,7 +347,7 @@ ul {
 }
 
 /* SAL need to make background disappear when smaller @media */
-/* line 290, ../assets/sass/dayonestyle.scss */
+/* line 300, ../assets/sass/dayonestyle.scss */
 #communityBackground {
   background-image: url("../images/community_background.jpg");
   background-size: 100% 100%;
@@ -342,7 +355,7 @@ ul {
   height: 511px;
 }
 
-/* line 297, ../assets/sass/dayonestyle.scss */
+/* line 307, ../assets/sass/dayonestyle.scss */
 .comVideo {
   background: #becaf2;
   padding: 50px;
@@ -350,14 +363,14 @@ ul {
   border-radius: 4px;
 }
 
-/* line 305, ../assets/sass/dayonestyle.scss */
+/* line 315, ../assets/sass/dayonestyle.scss */
 .videoBox {
   /* 	background-color: blue; */
   width: 500px;
   height: 320px;
 }
 
-/* line 311, ../assets/sass/dayonestyle.scss */
+/* line 321, ../assets/sass/dayonestyle.scss */
 .video-nav {
   height: 150px;
   padding: 20px;
@@ -365,14 +378,14 @@ ul {
   border-radius: 4px;
 }
 
-/* line 318, ../assets/sass/dayonestyle.scss */
+/* line 328, ../assets/sass/dayonestyle.scss */
 .centerVideo {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 324, ../assets/sass/dayonestyle.scss */
+/* line 334, ../assets/sass/dayonestyle.scss */
 .videoCaption {
   text-align: center;
 }
