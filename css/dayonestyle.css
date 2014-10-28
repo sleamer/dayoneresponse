@@ -337,13 +337,17 @@ ul {
   font-size: .8em;
   color: #006fba;
   line-height: 120%;
+  margin-top: 20px;
 }
 
 .pressBlurb {
   font-size: .6em;
   padding-left: 20px;
+  margin-top: -5px;
 }
 
 .pressCommunityBackround {
-  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
 }
