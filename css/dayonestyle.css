@@ -121,20 +121,18 @@
 .waterbagContentBackgroundRight, .pressCommunityBackround {
   background: rgba(255, 255, 255, 0.5);
   border-radius: 4px;
-  padding-bottom: 10px;
-  padding: 1%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 15px;
+  padding-left: 20px;
+  padding-bottom: 8px;
   margin: 5px;
 }
 
 .waterbagContentBackgroundLeft {
   background: rgba(255, 255, 255, 0.5);
   border-radius: 4px;
-  padding-bottom: 10px;
-  padding: 1%;
-  padding-left: 3%;
-  padding-right: 2%;
+  padding: 15px;
+  padding-left: 20px;
+  padding-bottom: 34px;
   margin-top: 5px;
 }
 
