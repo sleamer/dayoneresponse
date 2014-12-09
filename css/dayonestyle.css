@@ -117,12 +117,14 @@
   padding: 5%;
 }
 
-/* Semi-trans background on Waterbag page -- refactor later to extend .contentBackground. Heck refactor it all -- poor design layout*/
+/* Semi-trans background on Waterbag page -- refactor later to extend .contentBackground. */
 .waterbagContentBackgroundRight, .pressCommunityBackround {
   background: rgba(255, 255, 255, 0.5);
   border-radius: 4px;
   padding-bottom: 10px;
   padding: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
   margin: 5px;
 }
 
@@ -131,6 +133,8 @@
   border-radius: 4px;
   padding-bottom: 10px;
   padding: 1%;
+  padding-left: 3%;
+  padding-right: 2%;
   margin-top: 5px;
 }
 
@@ -350,4 +354,84 @@ ul {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
+}
+
+#pgHomeBackground {
+  margin-top: 100px;
+}
+
+.pgContentBackgroundRight {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  padding-bottom: 10px;
+  padding: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 5px;
+}
+
+.pgContentBackgroundLeft {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  padding-bottom: 10px;
+  padding: 2%;
+  padding-left: 3%;
+  padding-right: 2%;
+  margin-top: 5px;
+}
+
+.pgUseList {
+  font-size: .8em;
+}
+
+.pgCarousel {
+  background: #7e87b0;
+  border-radius: 4px;
+  padding-bottom: 10px;
+  padding: 1%;
+  margin: 20px;
+  height: 400px;
+  width: 430px;
+}
+
+.pgCarouselImage {
+  margin: auto;
+  float: left;
+}
+
+.pg-button-order {
+  height: 120px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 1%;
+  border-radius: 4px;
+}
+.pg-button-order a {
+  color: #4e4b4b;
+  font-size: 1.5em;
+}
+.pg-button-order a:hover {
+  text-decoration: none;
+}
+.pg-button-order:hover {
+  background-color: #5ac2ff;
+  color: black;
+}
+
+#pg_logo_button {
+  margin: 10px;
+  margin-right: 30px;
+}
+
+@media (max-width: 600px) {
+  .pg-button-order a {
+    font-size: 1.3em;
+  }
+
+  #pg_logo_button {
+    display: none;
+  }
+
+  .pgHomeBackground {
+    display: none;
+  }
 }

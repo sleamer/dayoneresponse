@@ -20,5 +20,11 @@ $(document).ready(function(){
 	  speed: 500,
 	  autoplay: true,
 	  arrows: true,
-	});	
+	});
+	$('#pgCarousel').slick({
+	  fade: true,
+	  speed: 500,
+	  autoplay: true,
+	  arrows: true,
+	});
 });
