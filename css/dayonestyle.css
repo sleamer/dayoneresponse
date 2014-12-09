@@ -431,7 +431,7 @@ ul {
     display: none;
   }
 
-  .pgHomeBackground {
+  #pgHomeBackground {
     display: none;
   }
 }
