@@ -180,9 +180,11 @@
 
 .button-order, .button-orderSmall {
   height: 40px;
-  background: #7e87b0;
+  background: #F1B172;
+  /* #7e87b0 */
   padding: 1%;
   border-radius: 4px;
+  border: 1px solid #965A3C;
 }
 .button-order a, .button-orderSmall a {
   color: white;
