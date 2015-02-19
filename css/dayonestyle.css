@@ -127,6 +127,10 @@
   font-size: 1.5em;
 }
 
+.partnerName {
+  font-weight: bold;
+}
+
 /* The semi-transparent background behind text */
 .contentBackground {
   background: rgba(255, 255, 255, 0.5);
