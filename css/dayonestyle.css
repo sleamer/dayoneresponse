@@ -49,7 +49,7 @@
   padding: 5%;
   border-radius: 10px;
   background: #cfcece;
-  overflow: hidden;
+  /* overflow: hidden; */
   text-align: left;
 }
 
@@ -201,6 +201,21 @@
   font-size: .8em;
 }
 
+.partnersCarousel {
+  background: #7e87b0;
+  border-radius: 4px;
+  /* 	height: 400px; */
+  /* 	overflow: hidden; */
+}
+
+.partnersCarouselImage {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid white;
+  border-radius: 4px;
+}
+
 .button-order, .button-orderSmall {
   height: 40px;
   background: #F1B172;
@@ -276,6 +291,7 @@
 .slick-prev:before, .slick-next:before {
   font-size: 40px;
   color: #3a3b96;
+  z-index: 10;
 }
 
 /* Legaleese formatting */
@@ -467,6 +483,10 @@ ul {
     margin-bottom: 10px;
     margin-top: 10px;
   }
+
+  .partnersCarouselImage {
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 600px) {
   .pg-button-order a {
@@ -485,5 +505,14 @@ ul {
     margin-top: 10px;
     font-size: 1em;
     margin-left: 5%;
+  }
+
+  .partnersCarouselImage {
+    width: 400px;
+  }
+}
+@media (max-width: 600px) {
+  .partnersCarouselImage {
+    width: 275px;
   }
 }

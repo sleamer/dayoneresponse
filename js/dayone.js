@@ -21,6 +21,12 @@ $(document).ready(function(){
 	  autoplay: true,
 	  arrows: true,
 	});
+	$('#partnersCarousel').slick({
+	  fade: true,
+	  speed: 500,
+	  autoplay: true,
+	  arrows: true,
+	});
 	$('#pgCarousel').slick({
 	  fade: true,
 	  speed: 500,

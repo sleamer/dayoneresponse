@@ -10,9 +10,14 @@
 	<title>DayOne Response | About</title>
 
 	<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
+	<!-- 	Slick Carousel-->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap_dayone.css">	
 	<link rel="stylesheet" type="text/css" href="css/dayonestyle.css"/>
+	<style>
+		/*div { border: 1px solid black;}*/
+	</style>
 
 </head>
 <body class="gradient">
@@ -65,12 +70,25 @@
 					</div><!-- class="col-md-12" -->
 				</div><!-- /class="row" id="whatWeDo" -->
 			<!-- /PARTNERS INTRO-->
-
+			<!-- PARTNERS CAROUSEL -->
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 partnersCarousel">
+					<div><h3 class="white center">SEE THE IMPACT</h3></div>
+					<div id="partnersCarousel">
+						<div><img src="carousel-images/partners/partners1.jpg" class="partnersCarouselImage"></div>
+						<div><img src="carousel-images/partners/partners2.jpg" class="partnersCarouselImage"></div>
+						<div><img src="carousel-images/partners/partners3.jpg" class="partnersCarouselImage"></div>
+						<div><img src="carousel-images/partners/partners4.jpg" class="partnersCarouselImage"></div>
+					</div>
+				</div>
+			</div>
+			<!-- //PARTNERS CAROUSEL -->
 			<!-- PARTNERS -->
 				<div class="row">
 					<div class="bioRowFiller"></div>
 				</div>
 				<div class="row">
+					<br>
 					<div class="col-md-3">
 						<img src="images/logo_americares.jpg" class="img-responsive">
 					</div><!-- /class="col-md-3" -->
@@ -181,5 +199,8 @@
 
 	<!-- Bootstrap -->
 	<script src="js/bootstrap.min.js"></script>
+		<!-- 	Slick Carousel-->
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/dayone.js"></script>
 </body>
 </html>
