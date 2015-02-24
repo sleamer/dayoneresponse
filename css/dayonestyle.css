@@ -137,7 +137,9 @@
   margin-top: 5%;
   border-radius: 4px;
   padding-bottom: 10px;
-  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
 }
 
 /* Semi-trans background on Waterbag page -- refactor later to extend .contentBackground. */
