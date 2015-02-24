@@ -489,6 +489,10 @@ ul {
   .partnersCarouselImage {
     margin-bottom: 20px;
   }
+
+  .carouselImage {
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 600px) {
   .pg-button-order a {
@@ -516,5 +520,11 @@ ul {
 @media (max-width: 600px) {
   .partnersCarouselImage {
     width: 275px;
+  }
+
+  .carouselImage {
+    width: 275px;
+    height: auto;
+    margin-bottom: 0;
   }
 }
