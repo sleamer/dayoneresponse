@@ -196,6 +196,13 @@
   border-radius: 4px;
 }
 
+.waterbagProduct {
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+}
+
 .waterbagSpecsTable td, .waterbagSpecsTable th {
   padding: 5px;
   border: 1px solid #5081b9;
