@@ -125,6 +125,10 @@
   font-style: italic;
 }
 
+.sponsor {
+  font-size: 1em;
+}
+
 /* This changes the color of all the body section text in the site */
 .infoSection {
   color: #4e4b4b;
@@ -259,6 +263,23 @@
 .button-orderHome {
   margin-top: 5px;
   border-radius: 10px;
+}
+
+#button-sponsorHome {
+  background: #F1B172;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#button-sponsorHome a {
+  color: white;
+}
+#button-sponsorHome a:hover {
+  text-decoration: none;
+}
+#button-sponsorHome:hover {
+  background-color: #5ac2ff;
+  color: white;
 }
 
 /* .contentPadding {
@@ -535,6 +556,10 @@ ul {
 
   .partnersCarouselImage {
     width: 400px;
+  }
+
+  #button-sponsorHome {
+    font-size: .9em;
   }
 }
 @media (max-width: 600px) {
