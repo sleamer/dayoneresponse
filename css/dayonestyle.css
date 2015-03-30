@@ -266,7 +266,7 @@
 }
 
 #button-sponsorHome {
-  background: #F1B172;
+  background: #5ac2ff;
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -278,7 +278,7 @@
   text-decoration: none;
 }
 #button-sponsorHome:hover {
-  background-color: #5ac2ff;
+  background-color: #F1B172;
   color: white;
 }
 
