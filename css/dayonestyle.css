@@ -269,7 +269,6 @@
   background: #5ac2ff;
   color: white;
   margin-top: 10px;
-  margin-bottom: 10px;
 }
 #button-sponsorHome a {
   color: white;
@@ -278,6 +277,23 @@
   text-decoration: none;
 }
 #button-sponsorHome:hover {
+  background-color: #F1B172;
+  color: white;
+}
+
+#button-purchaseHome {
+  background: #5ac2ff;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#button-purchaseHome a {
+  color: white;
+}
+#button-purchaseHome a:hover {
+  text-decoration: none;
+}
+#button-purchaseHome:hover {
   background-color: #F1B172;
   color: white;
 }
