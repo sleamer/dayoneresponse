@@ -577,6 +577,10 @@ ul {
   #button-sponsorHome {
     font-size: .9em;
   }
+
+  #button-purchaseHome {
+    font-size: .9em;
+  }
 }
 @media (max-width: 600px) {
   .partnersCarouselImage {
