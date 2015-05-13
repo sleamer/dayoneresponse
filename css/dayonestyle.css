@@ -265,37 +265,78 @@
   border-radius: 10px;
 }
 
-#button-sponsorHome {
+.button-sponsorHome {
   background: #5ac2ff;
   color: white;
+  width: 330px;
   margin-top: 10px;
 }
-#button-sponsorHome a {
+.button-sponsorHome a {
   color: white;
 }
-#button-sponsorHome a:hover {
+.button-sponsorHome a:hover {
   text-decoration: none;
 }
-#button-sponsorHome:hover {
+.button-sponsorHome:hover {
   background-color: #F1B172;
   color: white;
 }
 
-#button-purchaseHome {
+.button-purchaseHome {
   background: #5ac2ff;
   color: white;
+  width: 330px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-#button-purchaseHome a {
+.button-purchaseHome a {
   color: white;
 }
-#button-purchaseHome a:hover {
+.button-purchaseHome a:hover {
   text-decoration: none;
 }
-#button-purchaseHome:hover {
+.button-purchaseHome:hover {
   background-color: #F1B172;
   color: white;
+}
+
+.button-HomeSponsorNepal {
+  background: #F1B172;
+  color: white;
+  width: 330px;
+  /* border: 1px solid #965A3C; */
+}
+.button-HomeSponsorNepal a {
+  color: white;
+}
+.button-HomeSponsorNepal a:hover {
+  text-decoration: none;
+}
+.button-HomeSponsorNepal:hover {
+  background-color: #F1B172;
+  color: #7e87b0;
+}
+
+.home--button-learnMore {
+  color: white;
+  background-color: #F1B172;
+  border-radius: 10px;
+  width: 100px;
+  margin: auto;
+  /* border: 1px solid #965A3C; */
+  border-top: none;
+}
+.home--button-learnMore a {
+  color: white;
+}
+.home--button-learnMore a:hover {
+  text-decoration: none;
+}
+.home--button-learnMore:hover {
+  background-color: #F1B172;
+  color: #7e87b0;
+  border-radius: 10px;
+  margin: auto;
 }
 
 /* .contentPadding {
@@ -574,12 +615,14 @@ ul {
     width: 400px;
   }
 
-  #button-sponsorHome {
+  .button-sponsorHome {
     font-size: .9em;
+    width: 240px;
   }
 
-  #button-purchaseHome {
+  .button-purchaseHome {
     font-size: .9em;
+    width: 240px;
   }
 }
 @media (max-width: 600px) {
