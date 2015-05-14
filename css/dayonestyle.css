@@ -104,6 +104,12 @@
   padding-top: 5%;
 }
 
+.nepalpage--button {
+  margin-left: auto;
+  margin-right: auto;
+  width: 330px;
+}
+
 .center {
   text-align: center;
 }
@@ -328,14 +334,18 @@
 }
 .home--button-learnMore a {
   color: white;
+  text-decoration: none;
 }
 .home--button-learnMore a:hover {
+  text-decoration: none;
+}
+.home--button-learnMore a:link {
   text-decoration: none;
 }
 .home--button-learnMore:hover {
   background-color: #F1B172;
   color: #7e87b0;
-  border-radius: 10px;
+  text-decoration: none;
   margin: auto;
 }
 
@@ -560,6 +570,18 @@ ul {
 .pg-button-order:hover {
   background-color: #5ac2ff;
   color: black;
+}
+
+.nepal--chart {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nepal--chart-img {
+  margin: auto;
+  border-radius: 10px;
 }
 
 @media (max-width: 900px) {
