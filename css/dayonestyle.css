@@ -240,7 +240,9 @@
 }
 
 .button-order, .button-orderSmall, .button-orderHome {
-  height: 40px;
+  /* height: 40px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
   background: #F1B172;
   padding: 1%;
   border-radius: 4px;
@@ -260,6 +262,7 @@
 .ordertextLarge {
   font-size: 2em;
   padding: 10px;
+  border: 1px solid red;
 }
 
 .button-orderSmall {
@@ -304,6 +307,10 @@
 .button-purchaseHome:hover {
   background-color: #F1B172;
   color: white;
+}
+
+.larger {
+  font-size: 1.5em;
 }
 
 .button-HomeSponsorNepal {
